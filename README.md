@@ -2,6 +2,10 @@
 
 > Bookshelf is a clone of an item page from https://goodreads.com. Our team split up the project into four separate services. I was responsible for the reviews/ratings module. The user is able to see all reviews for specific books, post their own review, and sort through reviews by specific rating. 
 
+> This service renders all reviews for a book, based on dynamic endpoints. There is a tooltip when a user hovers over "Filter" that allows users to filter reviews by rating. This was achieved utilizing React state and ajax requests to the server. This service was deployed with AWS Elastic Beanstalk and images/static files were bundled and served on S3/Cloudfront. 
+
+> 
+
 ## Related Projects
 
   - https://github.com/hrr37-hermes-4/hannah-service
