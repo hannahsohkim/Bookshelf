@@ -1,4 +1,4 @@
-# Bookshelf
+# Bookshelf - Reviews
 
 > Bookshelf is a clone of an item page from https://goodreads.com. Our team split up the project into four separate services. I was responsible for the reviews/ratings module. The user is able to see all reviews for specific books, interact with other reviews, post their own review, and sort through reviews by specific rating. 
 
@@ -17,19 +17,9 @@
 1. [Requirements](#requirements)
 1. [Development](#development)
 
-## Usage
-
-> Some usage instructions
-
-## Requirements
-
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
-
-- Node 6.13.0
-- etc
 
 ## Development
-Workflow and sprint management can be seen at: https://trello.com/b/sI4IwOWn/fec. 
+Workflow and sprint management can be seen at: https://trello.com/b/sI4IwOWn/fec. For a detailed Medium post on the project and my process, please see: https://medium.com/@hannahsohkim/frontend-capstone-4dc2725772d4. 
 
 ### Installing Dependencies
 
@@ -37,7 +27,7 @@ From within the root directory:
 
 ```sh
 npm install -g webpack
-npm install
+npm install -g nodemon
 ```
 
 ### To Run 
